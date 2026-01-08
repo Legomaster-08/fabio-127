@@ -1,0 +1,149 @@
+body{
+    margin:0;
+}
+
+.titolo{
+    font-family:'BebasNeue-Regular' ;
+    font-size: 200px;
+    color:brown;
+    padding: 15px;
+    background:rgba(255,255,255,0.7);
+    border-radius:10px;
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgtitle{
+    background-position: center;
+    background-size: cover;
+    padding: 50px; 
+    text-align:center;
+}
+
+.imgtitle.fiat{
+    background-image:url("../FIAT/img/lingotto.png");
+}
+
+.imgtitle.alfa{
+    background-image:url("../ALFA_ROMEO/img/portello.png");
+}
+
+.imgtitle.lancia{
+    background-image:url("../LANCIA/img/fabbrica.png");
+}
+
+.titolo2{
+    color:brown;
+    font-family:'BebasNeue-Regular';
+    font-size:100px;
+    text-align:center;
+}
+
+.storia{
+    display:flex;
+    text-align: center; 
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+    color: rgb(183, 84, 84);
+    font-family: 'BebasNeue-Regular', Arial, sans-serif;
+    font-size: 30px;
+    padding:20px;
+}
+
+.sinistra{
+    height: 100%;
+    width: auto;
+    max-width: 700px;
+}
+
+.sinistra img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.destra{
+    flex:1;
+    max-width: 650px;
+    width:auto;   
+}
+
+.storia.reverse{
+    flex-direction:row-reverse;   
+}
+
+.elencomodelli{
+    display:flex;    
+    align-items:center;
+    background-position:center;
+    background-size:cover;
+    font-family: 'BebasNeue-Regular', Arial, sans-serif;
+    font-size: 83px;
+    color: brown;
+}
+
+.elencomodelli.fiat{
+    background-image:url("../FIAT/img/ponte.png");
+}
+
+.elencomodelli.alfa{
+    background-image:url("../ALFA_ROMEO/img/ponte.png");
+}
+
+.elencomodelli.lancia{
+    background-image:url("../LANCIA/img/ponte.png");
+}
+
+.tabella{
+    flex:1;
+    text-align:center;
+    font-family: 'BebasNeue-Regular', Arial, sans-serif;
+    font-size: 70px;
+    color: brown;
+    margin-left:30px;
+    background-color:rgba(255,255,255,0.5);
+    border-collapse: collapse;
+    margin:20px;
+    border: 1px solid black;
+}
+
+th ,td{
+    border: 1px solid black;
+    width: 300px;
+    max-width: 300px;
+
+}
+
+.imgtabella{
+    height: auto;
+    width: 450px;
+}
+
+.data{
+    font-size: 50px;
+    color:rgb(190, 62, 62)
+}
+
+.tabella a{
+    display:block;
+    width: 100%;
+    height: 100%;
+    font-size: 70px;
+    color: brown;
+    text-decoration:none;
+}
+
+@font-face {
+    font-family: 'BebasNeue-Regular';          
+    src: url('../font/BebasNeue-Regular.woff2') format('woff2'),
+         url('../font/BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
